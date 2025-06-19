@@ -3,6 +3,7 @@ import { model, Schema } from "mongoose";
 const app: Application = express();
 
 //hello  world
+//hello  world
 const noteSchema = new Schema({
   title: { type: String, require: true, trim: true },
   content: { type: String, default: "" },
